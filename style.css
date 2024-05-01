@@ -1,0 +1,25 @@
+body{  
+    background-image: url(88151-3840x2160-the-long-dark-wallpaper-photo-desktop-4k.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid; */
+    height: 100vh;
+}
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(2px);
+    width: 500px;
+    border-radius: 20px;
+    background-color: hsla(0, 0%,100%,0.1);
+}
